@@ -1,0 +1,8 @@
+anysphere.remote-ssh
+christian-kohler.path-intellisense
+eamodio.gitlens
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+pkief.material-icon-theme
+zhuangtongfa.material-theme

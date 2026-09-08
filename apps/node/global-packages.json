@@ -1,0 +1,17 @@
+{
+  "name": "lib",
+  "dependencies": {
+    "corepack": {
+      "version": "0.35.0",
+      "overridden": false
+    },
+    "nodemon": {
+      "version": "3.1.14",
+      "overridden": false
+    },
+    "npm": {
+      "version": "11.19.0",
+      "overridden": false
+    }
+  }
+}

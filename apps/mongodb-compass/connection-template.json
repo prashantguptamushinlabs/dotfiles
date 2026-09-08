@@ -1,0 +1,4 @@
+{
+  "connectionString": "mongodb://USER:PASSWORD@HOST:27017/DATABASE",
+  "name": "replace-with-a-safe-name"
+}

@@ -1,0 +1,27 @@
+# Secrets and account-specific files
+.env
+*.pem
+*.key
+id_*
+credentials*
+*token*
+
+# App profile state, history, caches, cookies, databases, and logs
+**/History/
+**/globalStorage/
+**/*.db
+**/*.db-*
+**/Cookies*
+**/Cache/
+**/GPUCache/
+**/Code\ Cache/
+**/Session\ Storage/
+**/SharedStorage/
+**/workspaceStorage/
+*.log
+
+# Shell and package-manager secrets/history
+.bash_history
+.zsh_history
+.npmrc
+.ssh/

@@ -1,0 +1,8 @@
+{
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
+    "editor.wordWrap": "on",
+    "cursor.composer.queueMessageDefaultBehavior": "steer"
+}
