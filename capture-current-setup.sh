@@ -29,7 +29,13 @@ copy_file "$home_dir/.shell.pre-oh-my-zsh" "shell/.shell.pre-oh-my-zsh"
 copy_file "$home_dir/.config/Cursor/User/settings.json" "apps/cursor/settings.json"
 copy_file "$home_dir/.config/Code/User/settings.json" "apps/vscode/settings.json"
 copy_file "$home_dir/.config/Code/User/keybindings.json" "apps/vscode/keybindings.json"
-if command -v cursor >/dev/null 2>&1; then cursor --list-extensions | sort > "$root_dir/apps/cursor/extensions.txt"; fi
+if command -v cursor >/dev/null 2>&1; then
+  # Cursor may create a diagnostic log merely to list extensions. Keep that
+  # transient state outside the real profile so capture also works in read-only homes.
+  cursor_config_dir="$(mktemp -d)"
+  XDG_CONFIG_HOME="$cursor_config_dir" cursor --list-extensions | sort > "$root_dir/apps/cursor/extensions.txt"
+  rm -rf "$cursor_config_dir"
+fi
 if command -v code >/dev/null 2>&1; then code --list-extensions | sort > "$root_dir/apps/vscode/extensions.txt"; fi
 
 # Node tooling versions and global packages. .npmrc is excluded because it can hold auth tokens.
