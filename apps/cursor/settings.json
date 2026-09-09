@@ -4,5 +4,33 @@
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
     "editor.wordWrap": "on",
-    "cursor.composer.queueMessageDefaultBehavior": "steer"
+    "cursor.composer.queueMessageDefaultBehavior": "steer",
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.disableLoginPrompt": true,
+    "claudeCode.environmentVariables": [
+        {
+            "name": "CLAUDE_CODE_USE_BEDROCK",
+            "value": "1"
+        },
+        {
+            "name": "AWS_REGION",
+            "value": "us-east-1"
+        },
+        {
+            "name": "AWS_BEARER_TOKEN_BEDROCK",
+            "value": "REDACTED_SET_YOUR_OWN"
+        },
+        {
+            "name": "ANTHROPIC_DEFAULT_SONNET_MODEL",
+            "value": "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+        },
+        {
+            "name": "ANTHROPIC_DEFAULT_OPUS_MODEL",
+            "value": "us.anthropic.claude-opus-4-5-20251101-v1:0"
+        },
+        {
+            "name": "ANTHROPIC_DEFAULT_HAIKU_MODEL",
+            "value": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+        }
+    ]
 }

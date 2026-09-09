@@ -1,3 +1,4 @@
+anthropic.claude-code
 anysphere.remote-ssh
 christian-kohler.path-intellisense
 eamodio.gitlens

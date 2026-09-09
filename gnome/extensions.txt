@@ -1,0 +1,13 @@
+add-to-desktop@tommimon.github.com
+apps-menu@gnome-shell-extensions.gcampax.github.com
+copyous@boerdereinar.dev
+ding@rastersoft.com
+drive-menu@gnome-shell-extensions.gcampax.github.com
+InternetSpeedMeter@alshakib.dev
+snapd-prompting@canonical.com
+snapd-search-provider@canonical.com
+system-monitor@gnome-shell-extensions.gcampax.github.com
+tiling-assistant@ubuntu.com
+ubuntu-appindicators@ubuntu.com
+ubuntu-dock@ubuntu.com
+web-search-provider@ubuntu.com

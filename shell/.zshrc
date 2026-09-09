@@ -123,3 +123,9 @@ export NVM_DIR="$HOME/.nvm"
 # assci character support in tmux
 export LC_ALL=en_IN.UTF-8
 export LANG=en_IN.UTF-8
+
+# Ensure ~/.local/bin is on PATH so claude works in non-login shells
+case ":$PATH:" in
+  *":$HOME/.local/bin:"*) ;;
+  *) export PATH="$HOME/.local/bin:$PATH" ;;
+esac
