@@ -2,7 +2,6 @@ brave
 canonical-livepatch
 firefox
 firmware-updater
-libreoffice
 postman
 slack
 snap-store
